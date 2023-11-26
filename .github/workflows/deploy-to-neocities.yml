@@ -35,5 +35,5 @@ jobs:
       with:
         api_token: ${{ secrets.NEOCITIES_API_TOKEN }}
         cleanup: false
-        dist_dir: C:\Users\Yonk\Documents\WEBSITE\github\yonkraccoon.github.io
+        dist_dir: \yonkraccoon.github.io
         protected_files: 'dropbox/*'
