@@ -1,6 +1,5 @@
-              - name: Deploy to Neocities
-                uses: bcomnes/deploy-to-neocities@v1.1.20
-            
+name: Deploy to Neocities
+
             
 # only run on changes to main
 on:
