@@ -6,4 +6,6 @@ body {
   background-color: #292926;
   color: white;
   font-family: Verdana;
+  		<!--Cursors-->
+	cursor:url('images/cursors/murrsor1.png'),auto;
 }
