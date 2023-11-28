@@ -1,0 +1,10 @@
+    body {
+  background-color:#151515;color:#ababab;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: #292926;
+  padding: 10px;
+}
