@@ -8,15 +8,12 @@
   background: #292926;
   padding: 10px;
 }
-          <!--Flex-->
+
   .flex {display:flex;}
-          <!--Hover & format text classes-->
+
     a.ex1:hover, a.ex1:active {color:green;font-size:95%}
     a.ex2:hover, a.ex2:active {color:yellow;font-size:95%}
     a.ex3:hover, a.ex3:active {background-color:green}
     a.ex3 {color:white;background-color:darkgreen;font-size:2rem;text-decoration:none;}
     h6:hover, h6:active {color:green}
     h6 {color:#cacaca;}
-	<!--cursor button zones-->
-#free
-	<!--cursor code-->

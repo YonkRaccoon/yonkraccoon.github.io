@@ -1,0 +1,36 @@
+
+home page:
+	(GLOBAL SOUND OPTION ON AND OFF! to alert the sound sensitive and notify of sound benefits)
+	artistic vision: an homage to point and click adventure and interactive sites of the early 2000s
+	able to be improved after creation
+	a single-view mural/photo collage where you can navigate to what you're curious about from the home page.
+
+small field for rss feed/recent "posts" recorded
+contact info, main links to other things
+----------------------------------------------------------------------------
+design:
+	every uninvasive page has a link to return home, or to something relevant
+toys:
+	unlockable cursors
+	hidden images and page links
+	draggable stickers/scene maker/dressup?
+----------------------------------------------------------------------------
+links page: a collection of links I would direct people to if they no longer had a search engine. education, cooking, artists
+
+(1) illustration page/papers in an exhibit:
+	a cloud or grid of (draggable) thumbnails that take you to a color-coded gallery of the picture, with a mood-setting song track that unmutes while present? (malicious, 	naughty, goofy, pleasant, organic, sad)
+ 	refer to max collins' and r3drunn3r's sites.
+	extra: being taken to a mood gallery lets you move left/right to view every other piece in that category (same song, same walls)
+
+(2) bio/manifesto/beliefs - my own voice, podcast, radio:
+	a commentary section where there's multiple panes of text, some with an audio player which has me narrating the tone needed to convey the proper emotions, set to neutral 	music.
+
+(3) journals page:
+
+(4) porn page:
+	has a warning page first with a manifesto disclaimer
+	e621 favorites, artists I believe in
+
+
+(5) music page:
+	audio player follows you. you choose out songs from simple visuals or decorative text.
