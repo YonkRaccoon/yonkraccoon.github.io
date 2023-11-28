@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YONK TENT</title>
     <!--Style file-->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/home.css" rel="stylesheet" type="text/css" media="all">
   
     <style>
     body {
@@ -20,21 +20,22 @@
 }
           <!--Flex-->
   .flex {display:flex;}
-          <!--Hover and fonts-->
+          <!--Hover & format text classes-->
     a.ex1:hover, a.ex1:active {color:green;font-size:95%}
     a.ex2:hover, a.ex2:active {color:yellow;font-size:95%}
     a.ex3:hover, a.ex3:active {background-color:green}
     a.ex3 {color:white;background-color:darkgreen;font-size:2rem;text-decoration:none;}
     h6:hover, h6:active {color:green}
     h6 {color:#cacaca;}
-	
-*{cursor:url('images/cursors/racc.png'),auto; }
+	<!--cursor button zones-->
+#free
+	<!--cursor code-->
     </style>
   </head>
   
   
                                <!--Body-->
-  <body>
+  <body id=free>
   <div class="content">
                               <!--Audio-->
   <div align="right">
@@ -76,14 +77,14 @@
   
 	<!--Journals-->
 	<div class="item">
-	<a href="zones/journals.html">
+	<a href="journals/journals.html">
 	<img width="50%" src="images/buttons/journals off.png"
 	onmouseover="this.src='images/buttons/journals on.png';"
 	onmouseout="this.src='images/buttons/journals off.png';"></a>
 	</div>
 	<!--Music-->
 	<div class="item">
-	<a href="zones/music.html">
+	<a href="music/music.html">
 	<img width="50%" src="images/buttons/music off.png"
 	onmouseover="this.src='images/buttons/music on.png';"
 	onmouseout="this.src='images/buttons/music off.png';"></a>
@@ -91,28 +92,43 @@
 	<br><br><br><br>
 	    <div class="item">
       <!--Manifestos-->
-    <a class="ex3" href="zones/manifestos.html">Manifestos</a>.
+    <a class="ex3" href="manifestos/manifestos.html">Manifestos</a>.
     </div>
     <br>
     <div class="item">
       <!--Gallery-->
-    <a class="ex3" href="zones/gallery.html">Gallery</a>.
+    <a class="ex3" href="gallery/gallery.html">Gallery</a>.
     </div>
     <br>
     <div class="item">
       <!--Cam page-->
-    <a title="FUCK YOU ZONE" class="ex3" href="zones/copcam.html">Coppy and Cam Fan Page</a>.
+    <a title="FUCK YOU ZONE" class="ex3" href="copcam/copcam.html">Coppy and Cam Fan Page</a>.
     </div>
     <br>
 	
   </div>
     
-    <center>
+<center>
+        <!--cursor button-->
+      <button onclick="leafracc()">Tanuki Cursor</button>
+      <script>
+          function leafracc() {
+             document.getElementById("free").style.cursor = "url(images/cursors/leafracc.png),auto"
+                }
+      </script><br>
+              <!--cursor button-->
+      <button onclick="leaf()">Leaf Cursor</button>
+      <script>
+          function leaf() {
+             document.getElementById("free").style.cursor = "url(images/cursors/leaf.png),auto"
+                }
+      </script><br>
+      
     <img width="40%" src="images/stickers/quest loop.png">
 
-<!--image-->
-   <p> <a style="background-color:purple;color:white;" href="IMAGE">EMPTY LINK</a> </p>
-    </center>
+        <!--link-->
+      <p> <a style="background-color:purple;color:white;" href="IMAGE">EMPTY LINK</a> </p>
+</center>
     
     <br> <!--Text blurb-->
     <p> This site is a placeholder until Yonk's projects are done and he learns advanced HTML. </p>
