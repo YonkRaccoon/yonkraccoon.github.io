@@ -13,10 +13,12 @@ contact info, main links to other things
 ----------------------------------------------------------------------------
 design:
 	every uninvasive page has a link to return home, or to something relevant
+	navigatable by keyboard controls for accessibility
 optional toys:
 	unlockable cursors
 	hidden images and page links
 	draggable stickers/scene maker/dressup?
+	controller support
 ----------------------------------------------------------------------------
 links page: a collection of links I would direct people to if they no longer had a search engine. education, cooking, artists
 
