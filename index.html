@@ -27,6 +27,7 @@
     a.ex3 {color:white;background-color:darkgreen;font-size:2rem;text-decoration:none;}
     h6:hover, h6:active {color:green}
     h6 {color:#cacaca;}
+
 	<!--cursor button zones-->
 #free
 	<!--cursor code-->
@@ -40,7 +41,7 @@
                               <!--Audio-->
   <div align="right">
     <h6>"Cold Memory" by Yonk Raccoon</h6>
-   <audio controls loop id="cold memory.mp3">
+   <audio style="max-width:100%" controls loop id="cold memory.mp3">
   <source src="sounds/BGM/cold memory.mp3" type="audio/mpeg"></audio>
 <script>
     var audio = document.getElementById("cold memory.mp3");
@@ -71,11 +72,22 @@
                               <!--Navigation-->
  <br>
  <center>
-	<img src="images/navigation.png" usemap="#workmap">
+	<img style="max-width:100%" src="images/navi.png" usemap="#workmap" id="musicnav">
 
 	<map name="workmap">
+	    <!--script for the mouseover music image change-->
+	<script>
+function musicOver() {
+  document.getElementById("musicnav").src="images/navi music.png";
+}
+
+function musicOut() {
+  document.getElementById("musicnav").src="images/navi.png";
+}
+</script>
+	
 		<area shape="rect" coords="0,0,149,52" alt="journals" href="journals/journals.html">
-		<area color="black" shape="rect" coords="74,124,167,239" alt="music" href="music/music.html">
+		<area color="black" shape="rect" coords="40,238,461,410" alt="music" href="music/music.html" onmouseover="musicOver()" onmouseout="musicOut()">
 		<area shape="rect" coords="64,406,169,606" alt="illustration" href="illustration/illustration.html">
 	</map>
   </center>
@@ -132,14 +144,10 @@
                 }
       </script><br>
       
-    <img width="40%" src="images/stickers/quest loop.png">
-
-        <!--link-->
-      <p> <a style="background-color:purple;color:white;" href="IMAGE">EMPTY LINK</a> </p>
 </center>
     
     <br> <!--Text blurb-->
-    <p> This site is a placeholder until Yonk's projects are done and he learns advanced HTML. </p>
+    <p> This site's first phase is still in development. :3 Thanks for visiting. </p>
 
 
 <footer style="background-color:#050505"><center>

@@ -4,6 +4,7 @@ home page:
 	artistic vision: an homage to point and click adventure and interactive sites of the early 2000s
 	able to be improved after creation
 	a single-view mural/photo collage where you can navigate to what you're curious about from the home page.
+**navigation menu needs to be a width and height that adapts to phone and PC without leaving the margins or messing up the imagemap**
 
 small field for rss feed/recent "posts" recorded
 contact info, main links to other things
@@ -29,7 +30,9 @@ links page: a collection of links I would direct people to if they no longer had
 
 (4) porn page:
 	has a warning page first with a manifesto disclaimer
-	e621 favorites, artists I believe in
+	Has a intuitive way to avoid elements like incest, degredation, and age difference
+	
+	link section for e621 favorites & artists I believe in
 
 
 (5) music page:
