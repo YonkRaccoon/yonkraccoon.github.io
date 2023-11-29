@@ -3,7 +3,9 @@ home page:
 	(GLOBAL SOUND OPTION ON AND OFF! to alert the sound sensitive and notify of sound benefits)
 	artistic vision: an homage to point and click adventure and interactive sites of the early 2000s
 	able to be improved after creation
-	a single-view mural/photo collage where you can navigate to what you're curious about from the home page.
+	a single-view mural/photo collage where you can navigate to what you're curious about from the 	home page.
+	No minimalistic branding or similarly-colored icons. The main links need to feel like their own 	brands.
+
 **navigation menu needs to be a width and height that adapts to phone and PC without leaving the margins or messing up the imagemap**
 
 small field for rss feed/recent "posts" recorded
@@ -11,7 +13,7 @@ contact info, main links to other things
 ----------------------------------------------------------------------------
 design:
 	every uninvasive page has a link to return home, or to something relevant
-toys:
+optional toys:
 	unlockable cursors
 	hidden images and page links
 	draggable stickers/scene maker/dressup?
