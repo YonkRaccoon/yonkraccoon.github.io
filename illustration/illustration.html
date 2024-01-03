@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,145 +9,92 @@
     <link href="style.css" rel="stylesheet" type="text/css" media="all">
     
   <style>
-  #fidget {
-  position: absolute;
-  z-index: 9;
-  background-color: #f1f1f1;
-  border: 1px solid #d3d3d3;
-  text-align: center;
-}
-
-#fidgetheader {
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  background-color: #A1AEA9;
-  color: #fff;
-}
-  #angsty {
-  position: absolute;
-  z-index: 9;
-  background-color: #f1f1f1;
-  border: 1px solid #d3d3d3;
-  text-align: center;
-}
-
-#angstyheader {
-
-  padding: 10px;
-  cursor: move;
-  z-index: 10;
-  background-color: #BE8C46;
-  color: #fff;
-}
-</style>
-
-  </head>
-  <body>
+.container {
+  /* You can set this to whatever you wish. */
+  width: 400px;
   
-   <div id="fidget">
-  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-  <div id="fidgetheader">Fidget</div>
-  <img src="images/art/fidget.png" height="300px">
+  /* You'll need to set a height. */
+  height: 400px;
+  
+  /* Allows positioning relative to this container. */
+  position: relative;
+  
+  /* For clarity. */
+  border: 1px solid black;
+}
+
+.box {
+  position: absolute;
+}
+
+.box#one {
+  width: 90px;
+  height: 60px;
+  background: red;
+  
+  top: 20px;
+  left: 60px;
+}
+
+.box#two {
+  width: 90px;
+  height: 100px;
+  background: blue;
+  
+  top: 50px;
+  right: 100px;
+}
+
+.box#three {
+  width: 67px;
+  height: 76px;
+  background: purple;
+  
+  bottom: 100px;
+  left: 278px;
+}
+
+.box#four {
+  width: 150px;
+  height: 160px;
+  background: yellow;
+  
+  top: 203px;
+  left: 100px;
+}
+
+.box#five {
+  width: 70px;
+  height: 50px;
+  background: orange;
+  
+  top: 110px;
+  left: 45px;
+}
+
+</style>
+</head>
+<body>
+  
+<div class="container" style="width:auto;">
+  <div class="box" id="one">
+<a href="images/art/fidget.png"><img style="max-width:100px" src="images/art/fidget.png"></a>
+  </div>
+  <div class="box" id="two">
+    <a href="images/art/pen.jpg"><img style="max-width:100px" src="images/art/pen.jpg"></a>
+  </div>
+  <div class="box" id="three">
+    <a href="images/art/coat.jpg"><img style="max-width:100px" src="images/art/coat.jpg"></a>
+  </div>
+  <div class="box" id="four">
+    <a href="images/art/screentone.jpg"><img style="max-width:100px" src="images/art/screentone.jpg"></a>
+  </div>
+  <div class="box" id="five">
+    <a href="images/art/zine.jpg"><img style="max-width:100px" src="images/art/zine.jpg"></a>
+  </div>
 </div>
 
-<script>
-//Make the DIV element draggagle:
-dragElement(document.getElementById("fidget"));
 
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    /* if present, the header is where you move the DIV from:*/
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
-    /* otherwise, move the DIV from anywhere inside the DIV:*/
-    elmnt.onmousedown = dragMouseDown;
-  }
-
-  function dragMouseDown(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
-
-  function elementDrag(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
-
-  function closeDragElement() {
-    /* stop moving when mouse button is released:*/
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
-</script>
-
-   <div id="angsty">
-  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
-  <div id="angstyheader">Angsty</div>
-  <img src="images/art/angsty.png" height="300px">
-</div>
-
-<script>
-//Make the DIV element draggagle:
-dragElement(document.getElementById("angsty"));
-
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "header")) {
-    /* if present, the header is where you move the DIV from:*/
-    document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
-  } else {
-    /* otherwise, move the DIV from anywhere inside the DIV:*/
-    elmnt.onmousedown = dragMouseDown;
-  }
-
-  function dragMouseDown(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
-
-  function elementDrag(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
-
-  function closeDragElement() {
-    /* stop moving when mouse button is released:*/
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
-</script>
 
   </body>
 </html>

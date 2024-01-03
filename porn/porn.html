@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href="style.css" rel="stylesheet" type="text/css" media="all">
+<style>
+.thumb{
+  max-width:;
+  max-height:140px;
+}
+#thumb {
+onmouseover="mouseOver()";
+onmousemove="mouseMove()";
+onclick="onClick()";
+}
+</style>
+  <script>
+    function mouseOver() {
+  document.getElementById("thumb").style.opacity = ".5";
+}
+      function mouseMove() {
+  document.getElementById("thumb").style.opacity = ".1";
+}
+      function onClick() {
+  document.getElementById("thumb").style.opacity = "1";
+}
+  </script>
+</head>
+
+<body>
+  <div style="margin:auto;">
+    <a href="images/art/lightbox.jpg"><img id="thumb" class="thumb" src="images/art/lightbox.jpg"></a>
+    <a href="images/art/draft.jpg"><img class="thumb" src="images/art/draft.jpg"></a>
+    <a href="images/art/hazelv2.png"><img class="thumb" src="images/art/hazelpreview.png"></a>
+  </div>
+</body>
+
+</html>

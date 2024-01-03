@@ -19,8 +19,10 @@
   background: #292926;
   padding: 10px;
 }
-          <!--Flex-->
+          <!--Flex and sensitive scaling-->
   .flex {display:flex;}
+  
+  
           <!--Hover & format text classes-->
     a.ex1:hover, a.ex1:active {color:green;font-size:95%}
     a.ex2:hover, a.ex2:active {color:yellow;font-size:95%}
@@ -55,7 +57,7 @@
     
     <!--Donation text and buttons-->
     <center>
-    <p style="color:black;background-color:gold;"> Cover the site cost (<b>1</b> remaining) </p>
+    <p style="color:black;background-color:gold;"> Cover the monthly site cost (<b>2</b> remaining) </p>
     <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="business" value="2NGQHKN58UBCC" />
 <input type="hidden" name="amount" value="5" />
@@ -73,78 +75,78 @@
                               <!--Navigation-->
  <br>
  <center>
-	<img style="max-width:100%" src="images/navi.png" usemap="#workmap" id="musicnav">
+	<img style="max-width:100%" src="images/navi OFF.png" usemap="#workmap" id="navi">
 
-	<map name="workmap">
+	<map name="workmap" >
 				<!--script for the mouseover music image change-->
 		<script>
 		function musicOver() {
-		  document.getElementById("musicnav").src="images/navi music.png";
+		  document.getElementById("navi").src="images/navi MUSIC.png";
 		}
 
 		function musicOut() {
-		  document.getElementById("musicnav").src="images/navi.png";
+		  document.getElementById("navi").src="images/navi OFF.png";
 		}
 		</script>
 	
 				<script>
-			function illustrationOver() {
-			  document.getElementById("musicnav").src="images/navi illustration.png";
+			function artOver() {
+			  document.getElementById("navi").src="images/navi ART.png";
 			}
 
-			function illustrationOut() {
-			  document.getElementById("musicnav").src="images/navi.png";
+			function artOut() {
+			  document.getElementById("navi").src="images/navi OFF.png";
 			}
 			</script>
 
 				<script>
 				function journalsOver() {
-				  document.getElementById("musicnav").src="images/navi journals.png";
+				  document.getElementById("navi").src="images/navi JOURNALS.png";
 				}
 
 				function journalsOut() {
-				  document.getElementById("musicnav").src="images/navi.png";
+				  document.getElementById("navi").src="images/navi OFF.png";
 				}
 				</script>
 				
 									<script>
 					function pornOver() {
-					  document.getElementById("musicnav").src="images/navi porn.png";
+					  document.getElementById("navi").src="images/navi PORN.png";
 					}
 
 					function pornOut() {
-					  document.getElementById("musicnav").src="images/navi.png";
+					  document.getElementById("navi").src="images/navi OFF.png";
 					}
 					</script>
 					
 															<script>
 						function linksOver() {
-						  document.getElementById("musicnav").src="images/navi links.png";
+						  document.getElementById("navi").src="images/navi LINKS.png";
 						}
 
 						function linksOut() {
-						  document.getElementById("musicnav").src="images/navi.png";
+						  document.getElementById("navi").src="images/navi OFF.png";
 						}
 						</script>
 						
 																	<script>
 							function bioOver() {
-							  document.getElementById("musicnav").src="images/navi bio.png";
+							  document.getElementById("navi").src="images/navi BIO.png";
 							}
 
 							function bioOut() {
-							  document.getElementById("musicnav").src="images/navi.png";
+							  document.getElementById("navi").src="images/navi OFF.png";
 							}
 							</script>
 
 
 
-		<area shape="rect" coords="21,27,168,222" alt="journals" href="journals/journals.html" onmouseover="journalsOver()" onmouseout="journalsOut()">
+		<area shape="rect" coords="17,73,129,230" alt="journals" href="journals/journals.html" onmouseover="journalsOver()" onmouseout="journalsOut()">
 		<area shape="rect" coords="40,238,461,410" alt="music" href="music/music.html" onmouseover="musicOver()" onmouseout="musicOut()">
-		<area shape="rect" coords="292,19,447,182" alt="illustration" href="illustration/illustration.html" onmouseover="illustrationOver()" onmouseout="illustrationOut()">
-		<area shape="rect" coords="400,478,500,600" alt="links" href="links/links.html" onmouseover="linksOver()" onmouseout="linksOut()">
-		<area shape="rect" coords="0,439,134,600" alt="bio" href="bio/bio.html" onmouseover="bioOver()" onmouseout="bioOut()">
-		<area shape="rect" coords="168,441,339,588" alt="porn" href="porn/disclaimer.html" onmouseover="pornOver()" onmouseout="pornOut()">
+		<area shape="rect" coords="380,21,444,119" alt="art" href="illustration/illustration.html" onmouseover="artOver()" onmouseout="artOut()">
+		<area shape="rect" coords="387,467,500,600" alt="links" href="links/links.html" onmouseover="linksOver()" onmouseout="linksOut()">
+		<area shape="rect" coords="33,425,151,546" alt="bio" href="bio/bio.html" onmouseover="bioOver()" onmouseout="bioOut()">
+		<area shape="rect" coords="169,441,339,583" alt="porn" href="porn/disclaimer.html" onmouseover="pornOver()" onmouseout="pornOut()">
 	</map>
   </center>
 								<!--

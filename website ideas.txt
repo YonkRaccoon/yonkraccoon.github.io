@@ -1,10 +1,12 @@
+FIRST: lay out every page in the most basic, functional way imaginable.
+
 
 home page:
-	(GLOBAL SOUND OPTION ON AND OFF! to alert the sound sensitive and notify of sound benefits)
-	artistic vision: an homage to point and click adventure and interactive sites of the early 2000s
+	(GLOBAL SOUND OPTION ON AND OFF! to alert the sound sensitive and notify of 	sound benefits)
+	artistic vision: an homage to point and click adventure and interactive sites 	of the early 2000s
 	able to be improved after creation
-	a single-view mural/photo collage where you can navigate to what you're curious about from the 	home page.
-	No minimalistic branding or similarly-colored icons. The main links need to feel like their own 	brands.
+	a single-view mural/photo collage where you can navigate to what you're curious 	about from the 	home page.
+	No minimalistic branding or similarly-colored icons. The main links need to 	feel like their own brands.
 
 **navigation menu needs to be a width and height that adapts to phone and PC without leaving the margins or messing up the imagemap**
 
@@ -23,21 +25,27 @@ optional toys:
 links page: a collection of links I would direct people to if they no longer had a search engine. education, cooking, artists
 
 (1) illustration page/papers in an exhibit:
-	a cloud or grid of (draggable) thumbnails that take you to a color-coded gallery of the picture, with a mood-setting song track that unmutes while present? (malicious, 	naughty, goofy, pleasant, organic, sad)
+	a cloud or grid of (draggable) thumbnails that take you to a color-coded 	gallery of the picture, with a mood-setting song track that unmutes while 	present? (malicious, 	naughty, goofy, pleasant, organic, sad)
  	refer to max collins' and r3drunn3r's sites.
-	extra: being taken to a mood gallery lets you move left/right to view every other piece in that category (same song, same walls)
+	extra: being taken to a mood gallery lets you move left/right to view every 	other piece in that category (same song, same walls)
 
-(2) bio/manifesto/beliefs - my own voice, podcast, radio:
-	a commentary section where there's multiple panes of text, some with an audio player which has me narrating the tone needed to convey the proper emotions, set to neutral 	music.
+(2) links page:
+	prioritizing what's most important first: software for creation, cooking sites, text adventure makers and games, "offline" related links, other websites in rings and connections, artists
 
 (3) journals page:
+	a chronological feed of entries, with color-coded labels for content type--
+	(radio segment, essay, blog post, personal game guide, concept art, philosophy etc.)
+	
 
 (4) porn page:
 	has a warning page first with a manifesto disclaimer
-	Has a intuitive way to avoid elements like incest, degredation, and age difference
-	
-	link section for e621 favorites & artists I believe in
-
+	commission spread example, inspired by r3drunn3r
+	Has a intuitive way to avoid elements like incest, degredation, and age 	difference (tag/id filters OR a 2nd layer gallery)
+	**link section for e621 favorites & artists I believe in
 
 (5) music page:
-	audio player follows you. you choose out songs from simple visuals or decorative text.
+	audio player follows you. you choose out songs from simple visuals or 	decorative text.
+
+(6) bio/manifesto/beliefs - my own voice, podcast, radio:
+	a commentary section where there's multiple panes of text, some with an audio 	player which has me narrating the tone needed to convey the proper emotions, 	set to neutral 	music.
+	contact info, ham radio
