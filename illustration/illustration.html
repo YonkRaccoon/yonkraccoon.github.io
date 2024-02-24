@@ -1,100 +1,39 @@
-
-
 <!DOCTYPE html>
 <html>
-  <head>
-      <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The web site of yonk</title>
-    <link href="style.css" rel="stylesheet" type="text/css" media="all">
-    
-  <style>
-.container {
-  /* You can set this to whatever you wish. */
-  width: 400px;
-  
-  /* You'll need to set a height. */
-  height: 400px;
-  
-  /* Allows positioning relative to this container. */
-  position: relative;
-  
-  /* For clarity. */
-  border: 1px solid black;
+<head>
+<link href="style.css" rel="stylesheet" type="text/css" media="all">
+<style>
+.thumb{
+  max-width:;
+  max-height:140px;
 }
-
-.box {
-  position: absolute;
+#thumb {
+onmouseover="mouseOver()";
+onmousemove="mouseMove()";
+onclick="onClick()";
 }
-
-.box#one {
-  width: 90px;
-  height: 60px;
-  background: red;
-  
-  top: 20px;
-  left: 60px;
-}
-
-.box#two {
-  width: 90px;
-  height: 100px;
-  background: blue;
-  
-  top: 50px;
-  right: 100px;
-}
-
-.box#three {
-  width: 67px;
-  height: 76px;
-  background: purple;
-  
-  bottom: 100px;
-  left: 278px;
-}
-
-.box#four {
-  width: 150px;
-  height: 160px;
-  background: yellow;
-  
-  top: 203px;
-  left: 100px;
-}
-
-.box#five {
-  width: 70px;
-  height: 50px;
-  background: orange;
-  
-  top: 110px;
-  left: 45px;
-}
-
 </style>
+  <script>
+    function mouseOver() {
+  document.getElementById("thumb").style.opacity = ".5";
+}
+      function mouseMove() {
+  document.getElementById("thumb").style.opacity = ".1";
+}
+      function onClick() {
+  document.getElementById("thumb").style.opacity = "1";
+}
+  </script>
 </head>
+
 <body>
-  
-<div class="container" style="width:auto;">
-  <div class="box" id="one">
-<a href="images/art/fidget.png"><img style="max-width:100px" src="images/art/fidget.png"></a>
+  <div style="margin:auto;">
+    <a href="images/art/fidget.png"><img id="thumb" class="thumb" src="images/art/fidget.png"></a>
+    <a href="images/art/pen.jpg"><img class="thumb" src="images/art/pen.jpg"></a>
+    <a href="images/art/coat.jpg"><img class="thumb" src="images/art/coat.jpg"></a>
+	<a href="images/art/screentone.jpg"><img class="thumb" src="images/art/screentone.jpg"></a>
+	<a href="images/art/zine.jpg"><img class="thumb" src="images/art/zine.jpg"></a>
   </div>
-  <div class="box" id="two">
-    <a href="images/art/pen.jpg"><img style="max-width:100px" src="images/art/pen.jpg"></a>
-  </div>
-  <div class="box" id="three">
-    <a href="images/art/coat.jpg"><img style="max-width:100px" src="images/art/coat.jpg"></a>
-  </div>
-  <div class="box" id="four">
-    <a href="images/art/screentone.jpg"><img style="max-width:100px" src="images/art/screentone.jpg"></a>
-  </div>
-  <div class="box" id="five">
-    <a href="images/art/zine.jpg"><img style="max-width:100px" src="images/art/zine.jpg"></a>
-  </div>
-</div>
+</body>
 
-
-
-  </body>
 </html>
