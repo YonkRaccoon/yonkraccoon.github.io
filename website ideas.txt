@@ -1,5 +1,11 @@
 FIRST: lay out every page in the most basic, functional way imaginable.
+Although this is a non-manipulative website, encourage one or two main takeaways you want the visitors to have. You want them to know your art easily, and have the option to learn about you as a person with tastes, and essentially interviews about the art.
 
+hiearchy:
+0. overall site banner that includes credit for everything being made from scratch
+1. big ol art and music buttons, porn being on the side
+2. journals, anime and game articles, and topsters yonk pop culture media image
+3. links to the web and etc.
 
 home page:
 	(GLOBAL SOUND OPTION ON AND OFF! to alert the sound sensitive and notify of 	sound benefits)
@@ -25,6 +31,7 @@ optional toys:
 links page: a collection of links I would direct people to if they no longer had a search engine. education, cooking, artists
 
 (1) illustration page/papers in an exhibit:
+	includes artist bio copy
 	a cloud or grid of (draggable) thumbnails that take you to a color-coded 	gallery of the picture, with a mood-setting song track that unmutes while 	present? (malicious, 	naughty, goofy, pleasant, organic, sad)
  	refer to max collins' and r3drunn3r's sites.
 	extra: being taken to a mood gallery lets you move left/right to view every 	other piece in that category (same song, same walls)
@@ -48,4 +55,4 @@ links page: a collection of links I would direct people to if they no longer had
 
 (6) bio/manifesto/beliefs - my own voice, podcast, radio:
 	a commentary section where there's multiple panes of text, some with an audio 	player which has me narrating the tone needed to convey the proper emotions, 	set to neutral 	music.
-	contact info, ham radio
+	contact info, ham radio. artist bio, porn disclaimer/explanation.
