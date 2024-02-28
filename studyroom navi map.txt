@@ -1,6 +1,0 @@
-	<area shape="rect" coords="17,73,129,230" alt="journals" href="journals/journals.html" onmouseover="journalsOver()" onmouseout="journalsOut()">
-		<area shape="rect" coords="40,238,461,410" alt="music" href="music/music.html" onmouseover="musicOver()" onmouseout="musicOut()">
-		<area shape="rect" coords="380,21,444,119" alt="art" href="illustration/illustration.html" onmouseover="artOver()" onmouseout="artOut()">
-		<area shape="rect" coords="387,467,500,600" alt="links" href="links/links.html" onmouseover="linksOver()" onmouseout="linksOut()">
-		<area shape="rect" coords="33,425,151,546" alt="bio" href="bio/bio.html" onmouseover="bioOver()" onmouseout="bioOut()">
-		<area shape="rect" coords="169,441,339,583" alt="porn" href="porn/disclaimer.html" onmouseover="pornOver()" onmouseout="pornOut()">

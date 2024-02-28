@@ -1,0 +1,77 @@
+                              <!--Navigation-->
+ <br>
+ <center>
+	<img style="max-width:100%" src="images/navi off.png" usemap="#workmap" id="navi">
+
+	<map name="workmap" >
+				<!--script for the mouseover music image change-->
+		<script>
+		function musicOver() {
+		  document.getElementById("navi").src="images/navi music.png";
+		}
+
+		function musicOut() {
+		  document.getElementById("navi").src="images/navi off.png";
+		}
+		</script>
+	
+				<script>
+			function artOver() {
+			  document.getElementById("navi").src="images/navi art.png";
+			}
+
+			function artOut() {
+			  document.getElementById("navi").src="images/navi off.png";
+			}
+			</script>
+
+				<script>
+				function journalsOver() {
+				  document.getElementById("navi").src="images/navi journals.png";
+				}
+
+				function journalsOut() {
+				  document.getElementById("navi").src="images/navi off.png";
+				}
+				</script>
+				
+									<script>
+					function pornOver() {
+					  document.getElementById("navi").src="images/navi porn.png";
+					}
+
+					function pornOut() {
+					  document.getElementById("navi").src="images/navi off.png";
+					}
+					</script>
+					
+															<script>
+						function linksOver() {
+						  document.getElementById("navi").src="images/navi links.png";
+						}
+
+						function linksOut() {
+						  document.getElementById("navi").src="images/navi off.png";
+						}
+						</script>
+						
+																	<script>
+							function bioOver() {
+							  document.getElementById("navi").src="images/navi bio.png";
+							}
+
+							function bioOut() {
+							  document.getElementById("navi").src="images/navi off.png";
+							}
+							</script>
+
+
+
+		<area shape="rect" coords="17,73,129,230" alt="journals" href="journals/journals.html" onmouseover="journalsOver()" onmouseout="journalsOut()">
+		<area shape="rect" coords="40,238,461,410" alt="music" href="music/music.html" onmouseover="musicOver()" onmouseout="musicOut()">
+		<area shape="rect" coords="380,21,444,119" alt="art" href="illustration/illustration.html" onmouseover="artOver()" onmouseout="artOut()">
+		<area shape="rect" coords="387,467,500,600" alt="links" href="links/links.html" onmouseover="linksOver()" onmouseout="linksOut()">
+		<area shape="rect" coords="33,425,151,546" alt="bio" href="bio/bio.html" onmouseover="bioOver()" onmouseout="bioOut()">
+		<area shape="rect" coords="169,441,339,583" alt="porn" href="porn/disclaimer.html" onmouseover="pornOver()" onmouseout="pornOut()">
+	</map>
+  </center>
