@@ -1,0 +1,25 @@
+    body {
+  background: #2e2a3d;color:#ababab;
+}
+
+.content {
+  max-width: 500px;
+  margin: auto;
+  background: #dcdcd6;
+  color: #0e0e0c;
+  padding: 10px;
+}
+
+.nowrap {
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+  .flex {display:flex;}
+
+    a.ex1:hover, a.ex1:active {color:green;font-size:95%}
+    a.ex2:hover, a.ex2:active {color:yellow;font-size:95%}
+    a.ex3:hover, a.ex3:active {background-color:green}
+    a.ex3 {color:white;background-color:darkgreen;font-size:2rem;text-decoration:none;}
+    h2:hover, h2:active {color:green}
+    h2 {color:#cacaca;}
